@@ -1,4 +1,4 @@
-FROM  registry.access.redhat.com/rhscl/httpd-24-rhel7
+FROM centos/httpd-24-centos7
 ADD ./index.html /var/www/html
 
 USER 1001
