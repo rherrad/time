@@ -1,4 +1,4 @@
-FROM centos/httpd-24-centos7
+FROM httpd
 ADD ./index.html /var/www/html
 
 USER 1001
